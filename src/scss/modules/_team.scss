@@ -1,0 +1,52 @@
+.team {
+	position: relative;
+	display: inline-flex;
+	color: white;
+	width: 100%;
+}
+.team h2 {
+	position: relative;
+	font-size: 180px;
+	opacity: .02;
+	text-align: right;
+	top: 130px;
+}
+.divteam {
+	position: absolute;
+	transform: translate(590%, 480%);
+	opacity: .5;
+}
+.pteam {
+	transform: rotate(-90deg);
+	font-size: 25px;
+}
+.team img {
+	height: 100%;
+	box-shadow: 0 150px 150px rgba(0,0,0,0.5);
+	transform: translateY(210px);
+	z-index: 1;
+}
+.teamtxt {
+	transform: translate(-160%, 85%);
+	z-index: 2;
+}
+.teamtxt hr {
+	width: 12%;
+	border: 2px solid white;
+	margin-left: 0;
+}
+.teamtxt h3 {
+	font-size: 30px;
+	font-weight: 300;
+	opacity: .5;
+}
+.teamtxt h4 {
+	font-size: 15px;
+	font-weight: 300;
+	opacity: .3;
+}
+.teamtxt p {
+	font-size: 11px;
+	font-weight: 300;
+	opacity: .5;
+}

@@ -1,0 +1,59 @@
+.event {
+	display: flex;
+	position: relative;
+	height: 100vh;
+	color: white;
+	background: linear-gradient(transparent 100px, #14193C);
+}
+.event:before {
+	content: '';
+	background-image: url(../images/events_background.png);
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	opacity: .5;
+}
+.event h2 {
+	position: absolute;
+	font-size: 180px;
+	opacity: .02;
+	left: 40%;
+}
+.divEvent {
+	position: absolute;
+	// transform: translate(190px, 190px);
+	opacity: .5;
+	left: 45%;
+	top: 15%;
+}
+.pevent {
+	transform: rotate(-90deg);
+	font-size: 25px;
+}
+.event h1 {
+	position: absolute;
+	font-size: 800px;
+	opacity: .3;
+	color: #14193C;
+	left: 45%;
+	top: -50%;;
+	height: 50%;
+}
+.eventtxt {
+	position: absolute;
+	transform: translate(-160%, 85%);
+	z-index: 2;
+}
+.eventtxt h3 {
+	font-size: 30px;
+	font-weight: 300;
+	opacity: .5;
+}
+.eventtxt p {
+	color: white;
+	font-size: 11px;
+	font-weight: 300;
+	opacity: .5;
+}

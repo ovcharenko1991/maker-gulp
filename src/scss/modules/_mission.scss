@@ -1,0 +1,29 @@
+.mission {
+	position: relative;
+	display: inline-flex;
+	color: white;
+	width: 100%;
+}
+.mission img {
+	height: 50%;
+	box-shadow: 0 150px 150px rgba(0,0,0,0.5);
+}
+.mission h2 {
+	position: relative;
+	font-size: 180px;
+	opacity: .02;
+	text-align: right;
+	top: 130px;
+}
+.divPmis {
+	position: absolute;
+	transform: translate(200px, 250px);
+	opacity: .5;
+}
+.pmis {
+	transform: rotate(-90deg);
+	font-size: 25px;
+}
+.misstxt {
+	transform: translate(-100px, 200px);
+}

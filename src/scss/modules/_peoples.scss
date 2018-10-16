@@ -1,0 +1,64 @@
+.peop {
+	padding-bottom: 50%;
+}
+.peoples {
+	position: relative;
+	display: inline-flex;
+	color: white;
+	width: 100%;
+	padding-top: 10%;
+}
+.peoplesimg1 {
+	height: 100%;
+	box-shadow: 0 150px 150px rgba(0,0,0,0.5);
+	transform: translateY(210px);
+}
+.peoplestxt1 {
+	transform: translate(-50%, 115%);
+}
+.peoplesimg2 {
+	height: 100%;
+	box-shadow: 0 150px 150px rgba(0,0,0,0.5);
+	transform: translateY(110%);
+}
+.peoplestxt2 {
+	transform: translate(-230%, 150%);
+}
+.peoplesimg3 {
+	height: 100%;
+	box-shadow: 0 150px 150px rgba(0,0,0,0.5);
+	transform: translate(30%, 70%);
+}
+.peoplestxt3 {
+	transform: translate(-170%, 120%);
+}
+.peoplesimg4 {
+	height: 100%;
+	box-shadow: 0 150px 150px rgba(0,0,0,0.5);
+	transform: translate(-30%, 150%);
+}
+.peoplestxt4 {
+	transform: translate(-100%, 190%);
+}
+.peoples h1 {
+	position: absolute;
+	font-size: 1000px;
+	color: #191e3f;
+	transform: translate(60%, -30%);
+	z-index: 0;
+}
+.peoples hr {
+	width: 12%;
+	border: 2px solid white;
+	margin-left: 0;
+}
+.peoples h3 {
+	font-size: 30px;
+	font-weight: 300;
+	opacity: .5;
+}
+.peoples h4 {
+	font-size: 15px;
+	font-weight: 300;
+	opacity: .3;
+}
